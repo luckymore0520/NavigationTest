@@ -15,6 +15,9 @@
 		7DA12E491B0B59F100D6B537 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA12E481B0B59F100D6B537 /* Images.xcassets */; };
 		7DA12E4C1B0B59F100D6B537 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA12E4A1B0B59F100D6B537 /* LaunchScreen.xib */; };
 		7DA12E581B0B59F100D6B537 /* NavigationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA12E571B0B59F100D6B537 /* NavigationTestTests.m */; };
+		7DA12E671B0B636900D6B537 /* HWNavigationViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA12E641B0B636900D6B537 /* HWNavigationViewDelegate.m */; };
+		7DA12E681B0B636900D6B537 /* SSWDirectionalPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA12E661B0B636900D6B537 /* SSWDirectionalPanGestureRecognizer.m */; };
+		7DA12E6E1B0B64B300D6B537 /* HWFlipTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA12E6D1B0B64B300D6B537 /* HWFlipTransitioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		7DA12E511B0B59F100D6B537 /* NavigationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA12E561B0B59F100D6B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA12E571B0B59F100D6B537 /* NavigationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTestTests.m; sourceTree = "<group>"; };
+		7DA12E631B0B636900D6B537 /* HWNavigationViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNavigationViewDelegate.h; sourceTree = "<group>"; };
+		7DA12E641B0B636900D6B537 /* HWNavigationViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNavigationViewDelegate.m; sourceTree = "<group>"; };
+		7DA12E651B0B636900D6B537 /* SSWDirectionalPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWDirectionalPanGestureRecognizer.h; sourceTree = "<group>"; };
+		7DA12E661B0B636900D6B537 /* SSWDirectionalPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWDirectionalPanGestureRecognizer.m; sourceTree = "<group>"; };
+		7DA12E6C1B0B64B300D6B537 /* HWFlipTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWFlipTransitioning.h; sourceTree = "<group>"; };
+		7DA12E6D1B0B64B300D6B537 /* HWFlipTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWFlipTransitioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +92,13 @@
 		7DA12E371B0B59F100D6B537 /* NavigationTest */ = {
 			isa = PBXGroup;
 			children = (
+				7DA12E631B0B636900D6B537 /* HWNavigationViewDelegate.h */,
+				7DA12E641B0B636900D6B537 /* HWNavigationViewDelegate.m */,
+				7DA12E651B0B636900D6B537 /* SSWDirectionalPanGestureRecognizer.h */,
+				7DA12E661B0B636900D6B537 /* SSWDirectionalPanGestureRecognizer.m */,
 				7DA12E3C1B0B59F100D6B537 /* AppDelegate.h */,
+				7DA12E6C1B0B64B300D6B537 /* HWFlipTransitioning.h */,
+				7DA12E6D1B0B64B300D6B537 /* HWFlipTransitioning.m */,
 				7DA12E3D1B0B59F100D6B537 /* AppDelegate.m */,
 				7DA12E421B0B59F100D6B537 /* ViewController.h */,
 				7DA12E431B0B59F100D6B537 /* ViewController.m */,
@@ -222,9 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA12E671B0B636900D6B537 /* HWNavigationViewDelegate.m in Sources */,
 				7DA12E3E1B0B59F100D6B537 /* AppDelegate.m in Sources */,
 				7DA12E3B1B0B59F100D6B537 /* main.m in Sources */,
 				7DA12E441B0B59F100D6B537 /* ViewController.m in Sources */,
+				7DA12E681B0B636900D6B537 /* SSWDirectionalPanGestureRecognizer.m in Sources */,
+				7DA12E6E1B0B64B300D6B537 /* HWFlipTransitioning.m in Sources */,
 				7DA12E411B0B59F100D6B537 /* NavigationTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
